@@ -3,5 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "hrb981027 <981027027@qq.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev",
+    "build": "vuepress build"
+  }
 }
