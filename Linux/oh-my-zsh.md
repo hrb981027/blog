@@ -12,8 +12,6 @@ chsh -s /bin/zsh
 
 * 完成后，重启终端或重启系统
 
----
-
 ## 2、安装oh-my-zsh
 
 * oh-my-zsh为开源项目，维护于GitHub，先确保你的设备上安装Git，安装Git
@@ -25,8 +23,6 @@ sudo apt-get install git
 ```
 sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 ```
-
----
 
 ## 3、挑选主题
 
@@ -41,8 +37,6 @@ ZSH_THEME="muse"
 #使配置立即生效
 source ~/.zshrc
 ```
-
----
 
 ## 4、安装插件
 
