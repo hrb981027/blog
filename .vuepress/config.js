@@ -6,7 +6,8 @@ module.exports = {
       {
         title: 'Linux',
         children: [
-          ['/Linux/oh-my-zsh', 'oh-my-zsh']
+          ['/Linux/oh-my-zsh', 'oh-my-zsh'],
+          ['/Linux/Git', 'Git'],
         ]
       }
     ]
