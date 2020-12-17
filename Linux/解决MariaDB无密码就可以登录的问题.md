@@ -1,3 +1,11 @@
+---
+title: 解决MariadbDB无密码就可以登录的问题
+date: 2020-12-17
+categories:
+  - Linux
+publish: true
+---
+
 ## 1、排查问题
 
 ```sh
@@ -10,7 +18,7 @@ cd /etc/mysql && sudo grep "password" -r
 
 ## 2、常见的解决方案
 
-* 无需密码登录，通常都是因为数据库默认的用户插件问题
+- 无需密码登录，通常都是因为数据库默认的用户插件问题
 
 ```sh
 #错误的

@@ -1,23 +1,38 @@
 module.exports = {
+  head: [
+    ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
+  ],
   title: "秋月无边",
   description: "",
+  theme: "reco",
   themeConfig: {
-    sidebar: [
-      {
-        title: 'Linux',
-        children: [
-          ['/Linux/oh-my-zsh', 'oh-my-zsh'],
-          ['/Linux/Git', 'Git'],
-          ['/Linux/Linux设置虚拟内存', 'Linux设置虚拟内存'],
-          ['/Linux/解决MariaDB无密码就可以登录的问题', '解决MariaDB无密码就可以登录的问题'],
-        ]
+    type: "blog",
+    blogConfig: {
+      category: {
+        location: 3,
+        text: '分类'
       },
-      {
-        title: '生活',
-        children: [
-          ['/Life/2020程序员找工作指南', '2020程序员找工作指南']
-        ]
+      tag: {
+        location: 4,
+        text: '标签'
+      },
+      socialLinks: [
+        { icon: 'reco-github', link: 'https://github.com/hrb981027' }
+      ]
+    },
+    nav: [
+      { text: 'Home', link: '/', icon: 'reco-home' },
+      { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' }
+    ],
+    sidebar: 'auto',
+    lastUpdated: '最后更新时间',
+    record: '苏ICP备17067224号-3',
+    recordLink: 'https://beian.miit.gov.cn/',
+    startYear: '2019',
+    locales: {
+      '/': {
+        lang: 'zh-CN'
       }
-    ]
+    }
   }
 }
