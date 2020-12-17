@@ -21,8 +21,8 @@ module.exports = {
       ]
     },
     nav: [
-      { text: 'Home', link: '/', icon: 'reco-home' },
-      { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' }
+      { text: '首页', link: '/', icon: 'reco-home' },
+      { text: '时间线', link: '/timeline/', icon: 'reco-date' }
     ],
     sidebar: 'auto',
     lastUpdated: '最后更新时间',
